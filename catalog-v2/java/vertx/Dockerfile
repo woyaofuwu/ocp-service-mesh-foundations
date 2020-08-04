@@ -1,12 +1,12 @@
 # Build:
 #   mvn clean package
 #   docker build --rm -t foundation-catalog-service-v2:1.0.0 .
-#   docker tag foundation-catalog-service-v2:1.0.0 docker.io/rhtgptetraining/foundation-catalog-service-v2:1.0.0
+#   docker tag foundation-catalog-service-v2:1.0.0 docker.io/robin9999/foundation-catalog-service-v2:1.0.0
 
 # Docker push (on F28):
 #   Make sure the following is the *first* entry in the docker daemon (by updating /etc/sysconfig/docker):  --add-registry docker.io
 #   docker login docker.io -u rhtgptetraining
-#   docker push docker.io/rhtgptetraining/foundation-catalog-service-v2:1.0.0
+#   docker push docker.io/robin9999/foundation-catalog-service-v2:1.0.0
 
 # Execution: OpenShift
 #   oc run foundation-catalog-service-v2 --image=docker.io/rhtgptetraining/foundation-catalog-service-v2:1.0.0
