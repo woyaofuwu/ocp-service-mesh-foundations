@@ -42,7 +42,7 @@ spec:
               fieldPath: metadata.namespace
 
         # Use OpenTracing enabled image
-        image: docker.io/rhtgptetraining/foundation-gateway-service:1.0.2
+        image: docker.io/robin9999/foundation-gateway-service:1.0.2
         ports:
         - containerPort: 8080
 
